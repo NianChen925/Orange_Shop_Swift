@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54AF62BFFD159356914B1074 /* libPods-Orange_Shop_SwiftTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAAF12837B81B14F476BE65 /* libPods-Orange_Shop_SwiftTests.a */; };
+		A34FFDC3E65DF99DF52691D7 /* libPods-Orange_Shop_Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E772841807BCB262C5B5136 /* libPods-Orange_Shop_Swift.a */; };
 		C279FF201DD4513B00F7DFAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279FF1F1DD4513B00F7DFAD /* AppDelegate.swift */; };
-		C279FF221DD4513B00F7DFAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279FF211DD4513B00F7DFAD /* ViewController.swift */; };
-		C279FF251DD4513B00F7DFAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C279FF231DD4513B00F7DFAD /* Main.storyboard */; };
 		C279FF271DD4513B00F7DFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C279FF261DD4513B00F7DFAD /* Assets.xcassets */; };
-		C279FF2A1DD4513B00F7DFAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C279FF281DD4513B00F7DFAD /* LaunchScreen.storyboard */; };
 		C279FF351DD4513B00F7DFAD /* Orange_Shop_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279FF341DD4513B00F7DFAD /* Orange_Shop_SwiftTests.swift */; };
 		C279FF401DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279FF3F1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.swift */; };
+		C279FF6F1DD4670E00F7DFAD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C279FF6E1DD4670E00F7DFAD /* Default-568h@2x.png */; };
+		C279FF7A1DD4685D00F7DFAD /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C279FF771DD4685D00F7DFAD /* SDCollectionViewCell.m */; };
+		C279FF7B1DD4685D00F7DFAD /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C279FF791DD4685D00F7DFAD /* SDCycleScrollView.m */; };
+		C279FF7E1DD469D900F7DFAD /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C279FF7D1DD469D900F7DFAD /* UIView+SDExtension.m */; };
+		C279FF841DD46A1D00F7DFAD /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = C279FF811DD46A1D00F7DFAD /* TAAbstractDotView.m */; };
+		C279FF851DD46A1D00F7DFAD /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = C279FF831DD46A1D00F7DFAD /* TAAnimatedDotView.m */; };
+		C279FF8A1DD46A2D00F7DFAD /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = C279FF871DD46A2D00F7DFAD /* TADotView.m */; };
+		C279FF8B1DD46A2D00F7DFAD /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C279FF891DD46A2D00F7DFAD /* TAPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E772841807BCB262C5B5136 /* libPods-Orange_Shop_Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Orange_Shop_Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2939CA651EF2EBDA28F97021 /* Pods-Orange_Shop_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orange_Shop_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orange_Shop_SwiftTests/Pods-Orange_Shop_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		3AAAF12837B81B14F476BE65 /* libPods-Orange_Shop_SwiftTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Orange_Shop_SwiftTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		443868E79050B93628F904EE /* Pods-Orange_Shop_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orange_Shop_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orange_Shop_Swift/Pods-Orange_Shop_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		8312ADE97F6AE779F5A6DA4E /* Pods-Orange_Shop_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orange_Shop_SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orange_Shop_SwiftTests/Pods-Orange_Shop_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BADB48D22595DC22685F12CA /* Pods-Orange_Shop_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orange_Shop_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orange_Shop_Swift/Pods-Orange_Shop_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		C279FF1C1DD4513B00F7DFAD /* Orange_Shop_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orange_Shop_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C279FF1F1DD4513B00F7DFAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C279FF211DD4513B00F7DFAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C279FF241DD4513B00F7DFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C279FF261DD4513B00F7DFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C279FF291DD4513B00F7DFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C279FF2B1DD4513B00F7DFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C279FF301DD4513B00F7DFAD /* Orange_Shop_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Orange_Shop_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C279FF341DD4513B00F7DFAD /* Orange_Shop_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_Shop_SwiftTests.swift; sourceTree = "<group>"; };
@@ -47,6 +57,23 @@
 		C279FF3B1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Orange_Shop_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C279FF3F1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_Shop_SwiftUITests.swift; sourceTree = "<group>"; };
 		C279FF411DD4513B00F7DFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C279FF6D1DD4661100F7DFAD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C279FF6E1DD4670E00F7DFAD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C279FF751DD4685C00F7DFAD /* Orange_Shop_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orange_Shop_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		C279FF761DD4685D00F7DFAD /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		C279FF771DD4685D00F7DFAD /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		C279FF781DD4685D00F7DFAD /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		C279FF791DD4685D00F7DFAD /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		C279FF7C1DD469D900F7DFAD /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		C279FF7D1DD469D900F7DFAD /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		C279FF801DD46A1D00F7DFAD /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		C279FF811DD46A1D00F7DFAD /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		C279FF821DD46A1D00F7DFAD /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		C279FF831DD46A1D00F7DFAD /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		C279FF861DD46A2D00F7DFAD /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		C279FF871DD46A2D00F7DFAD /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		C279FF881DD46A2D00F7DFAD /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		C279FF891DD46A2D00F7DFAD /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34FFDC3E65DF99DF52691D7 /* libPods-Orange_Shop_Swift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54AF62BFFD159356914B1074 /* libPods-Orange_Shop_SwiftTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +103,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A0FB82FC8EADC05DFBBC48D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				443868E79050B93628F904EE /* Pods-Orange_Shop_Swift.debug.xcconfig */,
+				BADB48D22595DC22685F12CA /* Pods-Orange_Shop_Swift.release.xcconfig */,
+				8312ADE97F6AE779F5A6DA4E /* Pods-Orange_Shop_SwiftTests.debug.xcconfig */,
+				2939CA651EF2EBDA28F97021 /* Pods-Orange_Shop_SwiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		869974A96FF77725FF2FF0F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E772841807BCB262C5B5136 /* libPods-Orange_Shop_Swift.a */,
+				3AAAF12837B81B14F476BE65 /* libPods-Orange_Shop_SwiftTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C279FF131DD4513B00F7DFAD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +130,8 @@
 				C279FF331DD4513B00F7DFAD /* Orange_Shop_SwiftTests */,
 				C279FF3E1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests */,
 				C279FF1D1DD4513B00F7DFAD /* Products */,
+				2A0FB82FC8EADC05DFBBC48D /* Pods */,
+				869974A96FF77725FF2FF0F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +148,15 @@
 		C279FF1E1DD4513B00F7DFAD /* Orange_Shop_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				C279FF541DD45CE500F7DFAD /* utils */,
+				C279FF531DD45CE100F7DFAD /* macros */,
+				C279FF521DD45CDE00F7DFAD /* components */,
+				C279FF511DD45CDC00F7DFAD /* vendors */,
+				C279FF501DD45CDA00F7DFAD /* views */,
+				C279FF4F1DD4518E00F7DFAD /* models */,
+				C279FF4E1DD4518200F7DFAD /* controllers */,
+				C279FF4D1DD4517600F7DFAD /* Supporting Files */,
 				C279FF1F1DD4513B00F7DFAD /* AppDelegate.swift */,
-				C279FF211DD4513B00F7DFAD /* ViewController.swift */,
-				C279FF231DD4513B00F7DFAD /* Main.storyboard */,
-				C279FF261DD4513B00F7DFAD /* Assets.xcassets */,
-				C279FF281DD4513B00F7DFAD /* LaunchScreen.storyboard */,
-				C279FF2B1DD4513B00F7DFAD /* Info.plist */,
 			);
 			path = Orange_Shop_Swift;
 			sourceTree = "<group>";
@@ -125,6 +179,201 @@
 			path = Orange_Shop_SwiftUITests;
 			sourceTree = "<group>";
 		};
+		C279FF4D1DD4517600F7DFAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C279FF751DD4685C00F7DFAD /* Orange_Shop_Swift-Bridging-Header.h */,
+				C279FF6E1DD4670E00F7DFAD /* Default-568h@2x.png */,
+				C279FF2B1DD4513B00F7DFAD /* Info.plist */,
+				C279FF261DD4513B00F7DFAD /* Assets.xcassets */,
+				C279FF6D1DD4661100F7DFAD /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C279FF4E1DD4518200F7DFAD /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C279FF981DD46AA300F7DFAD /* maintab */,
+				C279FF971DD46AA100F7DFAD /* location */,
+				C279FF961DD46AA000F7DFAD /* address */,
+				C279FF951DD46A9E00F7DFAD /* preorder */,
+				C279FF941DD46A9C00F7DFAD /* user */,
+				C279FF931DD46A9500F7DFAD /* product */,
+				C279FF921DD46A9000F7DFAD /* order */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		C279FF4F1DD4518E00F7DFAD /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		C279FF501DD45CDA00F7DFAD /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C279FF8C1DD46A4F00F7DFAD /* address */,
+				C279FF911DD46A6400F7DFAD /* preorder */,
+				C279FF901DD46A5D00F7DFAD /* user */,
+				C279FF8F1DD46A5B00F7DFAD /* order */,
+				C279FF8E1DD46A5900F7DFAD /* product */,
+				C279FF8D1DD46A5700F7DFAD /* maintab */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		C279FF511DD45CDC00F7DFAD /* vendors */ = {
+			isa = PBXGroup;
+			children = (
+				C279FF741DD4680D00F7DFAD /* SDCycleScrollView */,
+			);
+			name = vendors;
+			sourceTree = "<group>";
+		};
+		C279FF521DD45CDE00F7DFAD /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		C279FF531DD45CE100F7DFAD /* macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = macros;
+			sourceTree = "<group>";
+		};
+		C279FF541DD45CE500F7DFAD /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		C279FF741DD4680D00F7DFAD /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C279FF761DD4685D00F7DFAD /* SDCollectionViewCell.h */,
+				C279FF771DD4685D00F7DFAD /* SDCollectionViewCell.m */,
+				C279FF781DD4685D00F7DFAD /* SDCycleScrollView.h */,
+				C279FF791DD4685D00F7DFAD /* SDCycleScrollView.m */,
+				C279FF7C1DD469D900F7DFAD /* UIView+SDExtension.h */,
+				C279FF7D1DD469D900F7DFAD /* UIView+SDExtension.m */,
+				C279FF7F1DD469E500F7DFAD /* PageControl */,
+			);
+			name = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		C279FF7F1DD469E500F7DFAD /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				C279FF801DD46A1D00F7DFAD /* TAAbstractDotView.h */,
+				C279FF811DD46A1D00F7DFAD /* TAAbstractDotView.m */,
+				C279FF821DD46A1D00F7DFAD /* TAAnimatedDotView.h */,
+				C279FF831DD46A1D00F7DFAD /* TAAnimatedDotView.m */,
+				C279FF861DD46A2D00F7DFAD /* TADotView.h */,
+				C279FF871DD46A2D00F7DFAD /* TADotView.m */,
+				C279FF881DD46A2D00F7DFAD /* TAPageControl.h */,
+				C279FF891DD46A2D00F7DFAD /* TAPageControl.m */,
+			);
+			name = PageControl;
+			sourceTree = "<group>";
+		};
+		C279FF8C1DD46A4F00F7DFAD /* address */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = address;
+			sourceTree = "<group>";
+		};
+		C279FF8D1DD46A5700F7DFAD /* maintab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = maintab;
+			sourceTree = "<group>";
+		};
+		C279FF8E1DD46A5900F7DFAD /* product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = product;
+			sourceTree = "<group>";
+		};
+		C279FF8F1DD46A5B00F7DFAD /* order */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = order;
+			sourceTree = "<group>";
+		};
+		C279FF901DD46A5D00F7DFAD /* user */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = user;
+			sourceTree = "<group>";
+		};
+		C279FF911DD46A6400F7DFAD /* preorder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = preorder;
+			sourceTree = "<group>";
+		};
+		C279FF921DD46A9000F7DFAD /* order */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = order;
+			sourceTree = "<group>";
+		};
+		C279FF931DD46A9500F7DFAD /* product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = product;
+			sourceTree = "<group>";
+		};
+		C279FF941DD46A9C00F7DFAD /* user */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = user;
+			sourceTree = "<group>";
+		};
+		C279FF951DD46A9E00F7DFAD /* preorder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = preorder;
+			sourceTree = "<group>";
+		};
+		C279FF961DD46AA000F7DFAD /* address */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = address;
+			sourceTree = "<group>";
+		};
+		C279FF971DD46AA100F7DFAD /* location */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = location;
+			sourceTree = "<group>";
+		};
+		C279FF981DD46AA300F7DFAD /* maintab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = maintab;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +381,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C279FF441DD4513B00F7DFAD /* Build configuration list for PBXNativeTarget "Orange_Shop_Swift" */;
 			buildPhases = (
+				16326D247E847D9294CA1559 /* [CP] Check Pods Manifest.lock */,
 				C279FF181DD4513B00F7DFAD /* Sources */,
 				C279FF191DD4513B00F7DFAD /* Frameworks */,
 				C279FF1A1DD4513B00F7DFAD /* Resources */,
+				926689FDE3368997F55201FF /* [CP] Embed Pods Frameworks */,
+				1944081825411D411F5894E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +401,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C279FF471DD4513B00F7DFAD /* Build configuration list for PBXNativeTarget "Orange_Shop_SwiftTests" */;
 			buildPhases = (
+				E7C482B593C5C2889A0E60E0 /* [CP] Check Pods Manifest.lock */,
 				C279FF2C1DD4513B00F7DFAD /* Sources */,
 				C279FF2D1DD4513B00F7DFAD /* Frameworks */,
 				C279FF2E1DD4513B00F7DFAD /* Resources */,
+				93D5CB96BE9728D3CE08109E /* [CP] Embed Pods Frameworks */,
+				23DEE93695EDE02F294F4163 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +449,7 @@
 					C279FF1B1DD4513B00F7DFAD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = A6KB4HJC23;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					C279FF2F1DD4513B00F7DFAD = {
@@ -235,9 +491,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C279FF2A1DD4513B00F7DFAD /* LaunchScreen.storyboard in Resources */,
 				C279FF271DD4513B00F7DFAD /* Assets.xcassets in Resources */,
-				C279FF251DD4513B00F7DFAD /* Main.storyboard in Resources */,
+				C279FF6F1DD4670E00F7DFAD /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +512,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16326D247E847D9294CA1559 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1944081825411D411F5894E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orange_Shop_Swift/Pods-Orange_Shop_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23DEE93695EDE02F294F4163 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orange_Shop_SwiftTests/Pods-Orange_Shop_SwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		926689FDE3368997F55201FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orange_Shop_Swift/Pods-Orange_Shop_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D5CB96BE9728D3CE08109E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orange_Shop_SwiftTests/Pods-Orange_Shop_SwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C482B593C5C2889A0E60E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C279FF181DD4513B00F7DFAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C279FF221DD4513B00F7DFAD /* ViewController.swift in Sources */,
 				C279FF201DD4513B00F7DFAD /* AppDelegate.swift in Sources */,
+				C279FF8A1DD46A2D00F7DFAD /* TADotView.m in Sources */,
+				C279FF841DD46A1D00F7DFAD /* TAAbstractDotView.m in Sources */,
+				C279FF851DD46A1D00F7DFAD /* TAAnimatedDotView.m in Sources */,
+				C279FF7B1DD4685D00F7DFAD /* SDCycleScrollView.m in Sources */,
+				C279FF8B1DD46A2D00F7DFAD /* TAPageControl.m in Sources */,
+				C279FF7A1DD4685D00F7DFAD /* SDCollectionViewCell.m in Sources */,
+				C279FF7E1DD469D900F7DFAD /* UIView+SDExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,25 +651,6 @@
 			targetProxy = C279FF3C1DD4513B00F7DFAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C279FF231DD4513B00F7DFAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C279FF241DD4513B00F7DFAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C279FF281DD4513B00F7DFAD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C279FF291DD4513B00F7DFAD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C279FF421DD4513B00F7DFAD /* Debug */ = {
@@ -413,32 +748,44 @@
 		};
 		C279FF451DD4513B00F7DFAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 443868E79050B93628F904EE /* Pods-Orange_Shop_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = A6KB4HJC23;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Orange_Shop_Swift/PrefixHeader.pch";
 				INFOPLIST_FILE = Orange_Shop_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mogo.project.Orange-Shop-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Orange_Shop_Swift/Orange_Shop_Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C279FF461DD4513B00F7DFAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADB48D22595DC22685F12CA /* Pods-Orange_Shop_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = A6KB4HJC23;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Orange_Shop_Swift/PrefixHeader.pch";
 				INFOPLIST_FILE = Orange_Shop_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mogo.project.Orange-Shop-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Orange_Shop_Swift/Orange_Shop_Swift-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		C279FF481DD4513B00F7DFAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8312ADE97F6AE779F5A6DA4E /* Pods-Orange_Shop_SwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +801,7 @@
 		};
 		C279FF491DD4513B00F7DFAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2939CA651EF2EBDA28F97021 /* Pods-Orange_Shop_SwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +862,7 @@
 				C279FF461DD4513B00F7DFAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C279FF471DD4513B00F7DFAD /* Build configuration list for PBXNativeTarget "Orange_Shop_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +871,7 @@
 				C279FF491DD4513B00F7DFAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C279FF4A1DD4513B00F7DFAD /* Build configuration list for PBXNativeTarget "Orange_Shop_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +880,7 @@
 				C279FF4C1DD4513B00F7DFAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
