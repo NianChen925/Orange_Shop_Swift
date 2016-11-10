@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C279FF201DD4513B00F7DFAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279FF1F1DD4513B00F7DFAD /* AppDelegate.swift */; };
+		C279FF221DD4513B00F7DFAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279FF211DD4513B00F7DFAD /* ViewController.swift */; };
+		C279FF251DD4513B00F7DFAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C279FF231DD4513B00F7DFAD /* Main.storyboard */; };
+		C279FF271DD4513B00F7DFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C279FF261DD4513B00F7DFAD /* Assets.xcassets */; };
+		C279FF2A1DD4513B00F7DFAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C279FF281DD4513B00F7DFAD /* LaunchScreen.storyboard */; };
+		C279FF351DD4513B00F7DFAD /* Orange_Shop_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279FF341DD4513B00F7DFAD /* Orange_Shop_SwiftTests.swift */; };
+		C279FF401DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279FF3F1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C279FF311DD4513B00F7DFAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C279FF141DD4513B00F7DFAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C279FF1B1DD4513B00F7DFAD;
+			remoteInfo = Orange_Shop_Swift;
+		};
+		C279FF3C1DD4513B00F7DFAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C279FF141DD4513B00F7DFAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C279FF1B1DD4513B00F7DFAD;
+			remoteInfo = Orange_Shop_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C279FF1C1DD4513B00F7DFAD /* Orange_Shop_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orange_Shop_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C279FF1F1DD4513B00F7DFAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C279FF211DD4513B00F7DFAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C279FF241DD4513B00F7DFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C279FF261DD4513B00F7DFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C279FF291DD4513B00F7DFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C279FF2B1DD4513B00F7DFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C279FF301DD4513B00F7DFAD /* Orange_Shop_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Orange_Shop_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C279FF341DD4513B00F7DFAD /* Orange_Shop_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_Shop_SwiftTests.swift; sourceTree = "<group>"; };
+		C279FF361DD4513B00F7DFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C279FF3B1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Orange_Shop_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C279FF3F1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_Shop_SwiftUITests.swift; sourceTree = "<group>"; };
+		C279FF411DD4513B00F7DFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C279FF191DD4513B00F7DFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C279FF2D1DD4513B00F7DFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C279FF381DD4513B00F7DFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C279FF131DD4513B00F7DFAD = {
+			isa = PBXGroup;
+			children = (
+				C279FF1E1DD4513B00F7DFAD /* Orange_Shop_Swift */,
+				C279FF331DD4513B00F7DFAD /* Orange_Shop_SwiftTests */,
+				C279FF3E1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests */,
+				C279FF1D1DD4513B00F7DFAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C279FF1D1DD4513B00F7DFAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C279FF1C1DD4513B00F7DFAD /* Orange_Shop_Swift.app */,
+				C279FF301DD4513B00F7DFAD /* Orange_Shop_SwiftTests.xctest */,
+				C279FF3B1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C279FF1E1DD4513B00F7DFAD /* Orange_Shop_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C279FF1F1DD4513B00F7DFAD /* AppDelegate.swift */,
+				C279FF211DD4513B00F7DFAD /* ViewController.swift */,
+				C279FF231DD4513B00F7DFAD /* Main.storyboard */,
+				C279FF261DD4513B00F7DFAD /* Assets.xcassets */,
+				C279FF281DD4513B00F7DFAD /* LaunchScreen.storyboard */,
+				C279FF2B1DD4513B00F7DFAD /* Info.plist */,
+			);
+			path = Orange_Shop_Swift;
+			sourceTree = "<group>";
+		};
+		C279FF331DD4513B00F7DFAD /* Orange_Shop_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C279FF341DD4513B00F7DFAD /* Orange_Shop_SwiftTests.swift */,
+				C279FF361DD4513B00F7DFAD /* Info.plist */,
+			);
+			path = Orange_Shop_SwiftTests;
+			sourceTree = "<group>";
+		};
+		C279FF3E1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C279FF3F1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.swift */,
+				C279FF411DD4513B00F7DFAD /* Info.plist */,
+			);
+			path = Orange_Shop_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C279FF1B1DD4513B00F7DFAD /* Orange_Shop_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C279FF441DD4513B00F7DFAD /* Build configuration list for PBXNativeTarget "Orange_Shop_Swift" */;
+			buildPhases = (
+				C279FF181DD4513B00F7DFAD /* Sources */,
+				C279FF191DD4513B00F7DFAD /* Frameworks */,
+				C279FF1A1DD4513B00F7DFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orange_Shop_Swift;
+			productName = Orange_Shop_Swift;
+			productReference = C279FF1C1DD4513B00F7DFAD /* Orange_Shop_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C279FF2F1DD4513B00F7DFAD /* Orange_Shop_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C279FF471DD4513B00F7DFAD /* Build configuration list for PBXNativeTarget "Orange_Shop_SwiftTests" */;
+			buildPhases = (
+				C279FF2C1DD4513B00F7DFAD /* Sources */,
+				C279FF2D1DD4513B00F7DFAD /* Frameworks */,
+				C279FF2E1DD4513B00F7DFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C279FF321DD4513B00F7DFAD /* PBXTargetDependency */,
+			);
+			name = Orange_Shop_SwiftTests;
+			productName = Orange_Shop_SwiftTests;
+			productReference = C279FF301DD4513B00F7DFAD /* Orange_Shop_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C279FF3A1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C279FF4A1DD4513B00F7DFAD /* Build configuration list for PBXNativeTarget "Orange_Shop_SwiftUITests" */;
+			buildPhases = (
+				C279FF371DD4513B00F7DFAD /* Sources */,
+				C279FF381DD4513B00F7DFAD /* Frameworks */,
+				C279FF391DD4513B00F7DFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C279FF3D1DD4513B00F7DFAD /* PBXTargetDependency */,
+			);
+			name = Orange_Shop_SwiftUITests;
+			productName = Orange_Shop_SwiftUITests;
+			productReference = C279FF3B1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C279FF141DD4513B00F7DFAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = mogo;
+				TargetAttributes = {
+					C279FF1B1DD4513B00F7DFAD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A6KB4HJC23;
+						ProvisioningStyle = Automatic;
+					};
+					C279FF2F1DD4513B00F7DFAD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A6KB4HJC23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C279FF1B1DD4513B00F7DFAD;
+					};
+					C279FF3A1DD4513B00F7DFAD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A6KB4HJC23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C279FF1B1DD4513B00F7DFAD;
+					};
+				};
+			};
+			buildConfigurationList = C279FF171DD4513B00F7DFAD /* Build configuration list for PBXProject "Orange_Shop_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C279FF131DD4513B00F7DFAD;
+			productRefGroup = C279FF1D1DD4513B00F7DFAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C279FF1B1DD4513B00F7DFAD /* Orange_Shop_Swift */,
+				C279FF2F1DD4513B00F7DFAD /* Orange_Shop_SwiftTests */,
+				C279FF3A1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C279FF1A1DD4513B00F7DFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C279FF2A1DD4513B00F7DFAD /* LaunchScreen.storyboard in Resources */,
+				C279FF271DD4513B00F7DFAD /* Assets.xcassets in Resources */,
+				C279FF251DD4513B00F7DFAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C279FF2E1DD4513B00F7DFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C279FF391DD4513B00F7DFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C279FF181DD4513B00F7DFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C279FF221DD4513B00F7DFAD /* ViewController.swift in Sources */,
+				C279FF201DD4513B00F7DFAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C279FF2C1DD4513B00F7DFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C279FF351DD4513B00F7DFAD /* Orange_Shop_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C279FF371DD4513B00F7DFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C279FF401DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C279FF321DD4513B00F7DFAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C279FF1B1DD4513B00F7DFAD /* Orange_Shop_Swift */;
+			targetProxy = C279FF311DD4513B00F7DFAD /* PBXContainerItemProxy */;
+		};
+		C279FF3D1DD4513B00F7DFAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C279FF1B1DD4513B00F7DFAD /* Orange_Shop_Swift */;
+			targetProxy = C279FF3C1DD4513B00F7DFAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C279FF231DD4513B00F7DFAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C279FF241DD4513B00F7DFAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C279FF281DD4513B00F7DFAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C279FF291DD4513B00F7DFAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C279FF421DD4513B00F7DFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C279FF431DD4513B00F7DFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C279FF451DD4513B00F7DFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6KB4HJC23;
+				INFOPLIST_FILE = Orange_Shop_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mogo.project.Orange-Shop-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C279FF461DD4513B00F7DFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6KB4HJC23;
+				INFOPLIST_FILE = Orange_Shop_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mogo.project.Orange-Shop-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C279FF481DD4513B00F7DFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A6KB4HJC23;
+				INFOPLIST_FILE = Orange_Shop_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mogo.project.Orange-Shop-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orange_Shop_Swift.app/Orange_Shop_Swift";
+			};
+			name = Debug;
+		};
+		C279FF491DD4513B00F7DFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A6KB4HJC23;
+				INFOPLIST_FILE = Orange_Shop_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mogo.project.Orange-Shop-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orange_Shop_Swift.app/Orange_Shop_Swift";
+			};
+			name = Release;
+		};
+		C279FF4B1DD4513B00F7DFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A6KB4HJC23;
+				INFOPLIST_FILE = Orange_Shop_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mogo.project.Orange-Shop-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Orange_Shop_Swift;
+			};
+			name = Debug;
+		};
+		C279FF4C1DD4513B00F7DFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A6KB4HJC23;
+				INFOPLIST_FILE = Orange_Shop_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mogo.project.Orange-Shop-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Orange_Shop_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C279FF171DD4513B00F7DFAD /* Build configuration list for PBXProject "Orange_Shop_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C279FF421DD4513B00F7DFAD /* Debug */,
+				C279FF431DD4513B00F7DFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C279FF441DD4513B00F7DFAD /* Build configuration list for PBXNativeTarget "Orange_Shop_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C279FF451DD4513B00F7DFAD /* Debug */,
+				C279FF461DD4513B00F7DFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C279FF471DD4513B00F7DFAD /* Build configuration list for PBXNativeTarget "Orange_Shop_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C279FF481DD4513B00F7DFAD /* Debug */,
+				C279FF491DD4513B00F7DFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C279FF4A1DD4513B00F7DFAD /* Build configuration list for PBXNativeTarget "Orange_Shop_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C279FF4B1DD4513B00F7DFAD /* Debug */,
+				C279FF4C1DD4513B00F7DFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C279FF141DD4513B00F7DFAD /* Project object */;
+}
