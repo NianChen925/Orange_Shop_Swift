@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54AF62BFFD159356914B1074 /* libPods-Orange_Shop_SwiftTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAAF12837B81B14F476BE65 /* libPods-Orange_Shop_SwiftTests.a */; };
-		A34FFDC3E65DF99DF52691D7 /* libPods-Orange_Shop_Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E772841807BCB262C5B5136 /* libPods-Orange_Shop_Swift.a */; };
+		00750F437B15E9DEA38A6B24 /* Pods_Orange_Shop_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0590CF57295CE928BE236FBC /* Pods_Orange_Shop_Swift.framework */; };
+		ABF09EC75037A4A7A449CC9A /* Pods_Orange_Shop_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E9658A2ADCE0470E5AF8CD /* Pods_Orange_Shop_SwiftTests.framework */; };
+		C21617A61DD56F970016FA30 /* TabHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21617A51DD56F970016FA30 /* TabHomeController.swift */; };
+		C21617A81DD56FB10016FA30 /* TabTopicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21617A71DD56FB10016FA30 /* TabTopicController.swift */; };
+		C21617AA1DD56FC40016FA30 /* TabCartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21617A91DD56FC40016FA30 /* TabCartController.swift */; };
+		C21617AC1DD56FDA0016FA30 /* TabMyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21617AB1DD56FDA0016FA30 /* TabMyController.swift */; };
+		C22BBB641DD59A88005D6414 /* common_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22BBB631DD59A88005D6414 /* common_macro.swift */; };
+		C22BBB671DD5AA4F005D6414 /* ActionSheetPicker_3_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22BBB661DD5AA4F005D6414 /* ActionSheetPicker_3_0.framework */; };
+		C22BBB691DD5AA54005D6414 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22BBB681DD5AA54005D6414 /* AFNetworking.framework */; };
+		C22BBB6B1DD5AA59005D6414 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22BBB6A1DD5AA59005D6414 /* FMDB.framework */; };
+		C22BBB6D1DD5AA5D005D6414 /* jastor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22BBB6C1DD5AA5D005D6414 /* jastor.framework */; };
+		C22BBB6F1DD5AA62005D6414 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22BBB6E1DD5AA62005D6414 /* Masonry.framework */; };
+		C22BBB711DD5AA66005D6414 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22BBB701DD5AA66005D6414 /* MBProgressHUD.framework */; };
+		C22BBB731DD5AA6A005D6414 /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22BBB721DD5AA6A005D6414 /* MJExtension.framework */; };
+		C22BBB771DD5AA7A005D6414 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22BBB761DD5AA7A005D6414 /* SDWebImage.framework */; };
+		C22BBB791DD5AA81005D6414 /* TouchJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22BBB781DD5AA81005D6414 /* TouchJSON.framework */; };
+		C22BBB7B1DD5AA89005D6414 /* UITableView_FDTemplateLayoutCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22BBB7A1DD5AA89005D6414 /* UITableView_FDTemplateLayoutCell.framework */; };
+		C22BBB7D1DD5AAA0005D6414 /* Pods_Orange_Shop_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22BBB7C1DD5AAA0005D6414 /* Pods_Orange_Shop_SwiftTests.framework */; };
 		C279FF201DD4513B00F7DFAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279FF1F1DD4513B00F7DFAD /* AppDelegate.swift */; };
 		C279FF271DD4513B00F7DFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C279FF261DD4513B00F7DFAD /* Assets.xcassets */; };
 		C279FF351DD4513B00F7DFAD /* Orange_Shop_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279FF341DD4513B00F7DFAD /* Orange_Shop_SwiftTests.swift */; };
@@ -21,6 +37,7 @@
 		C279FF851DD46A1D00F7DFAD /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = C279FF831DD46A1D00F7DFAD /* TAAnimatedDotView.m */; };
 		C279FF8A1DD46A2D00F7DFAD /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = C279FF871DD46A2D00F7DFAD /* TADotView.m */; };
 		C279FF8B1DD46A2D00F7DFAD /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C279FF891DD46A2D00F7DFAD /* TAPageControl.m */; };
+		C279FF9A1DD4751D00F7DFAD /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279FF991DD4751D00F7DFAD /* BaseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +58,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E772841807BCB262C5B5136 /* libPods-Orange_Shop_Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Orange_Shop_Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0590CF57295CE928BE236FBC /* Pods_Orange_Shop_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orange_Shop_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2939CA651EF2EBDA28F97021 /* Pods-Orange_Shop_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orange_Shop_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orange_Shop_SwiftTests/Pods-Orange_Shop_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		3AAAF12837B81B14F476BE65 /* libPods-Orange_Shop_SwiftTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Orange_Shop_SwiftTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		443868E79050B93628F904EE /* Pods-Orange_Shop_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orange_Shop_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orange_Shop_Swift/Pods-Orange_Shop_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		8312ADE97F6AE779F5A6DA4E /* Pods-Orange_Shop_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orange_Shop_SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orange_Shop_SwiftTests/Pods-Orange_Shop_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BADB48D22595DC22685F12CA /* Pods-Orange_Shop_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orange_Shop_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orange_Shop_Swift/Pods-Orange_Shop_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		C21617A51DD56F970016FA30 /* TabHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabHomeController.swift; sourceTree = "<group>"; };
+		C21617A71DD56FB10016FA30 /* TabTopicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabTopicController.swift; sourceTree = "<group>"; };
+		C21617A91DD56FC40016FA30 /* TabCartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCartController.swift; sourceTree = "<group>"; };
+		C21617AB1DD56FDA0016FA30 /* TabMyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabMyController.swift; sourceTree = "<group>"; };
+		C22BBB631DD59A88005D6414 /* common_macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common_macro.swift; sourceTree = "<group>"; };
+		C22BBB661DD5AA4F005D6414 /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActionSheetPicker_3_0.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Orange_Shop_Swift-cyjpqovmxfggmtektdcnegfpgkvh/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework"; sourceTree = "<group>"; };
+		C22BBB681DD5AA54005D6414 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Orange_Shop_Swift-cyjpqovmxfggmtektdcnegfpgkvh/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		C22BBB6A1DD5AA59005D6414 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Orange_Shop_Swift-cyjpqovmxfggmtektdcnegfpgkvh/Build/Products/Debug-iphonesimulator/FMDB/FMDB.framework"; sourceTree = "<group>"; };
+		C22BBB6C1DD5AA5D005D6414 /* jastor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = jastor.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Orange_Shop_Swift-cyjpqovmxfggmtektdcnegfpgkvh/Build/Products/Debug-iphonesimulator/jastor/jastor.framework"; sourceTree = "<group>"; };
+		C22BBB6E1DD5AA62005D6414 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Orange_Shop_Swift-cyjpqovmxfggmtektdcnegfpgkvh/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework"; sourceTree = "<group>"; };
+		C22BBB701DD5AA66005D6414 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Orange_Shop_Swift-cyjpqovmxfggmtektdcnegfpgkvh/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework"; sourceTree = "<group>"; };
+		C22BBB721DD5AA6A005D6414 /* MJExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MJExtension.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Orange_Shop_Swift-cyjpqovmxfggmtektdcnegfpgkvh/Build/Products/Debug-iphonesimulator/MJExtension/MJExtension.framework"; sourceTree = "<group>"; };
+		C22BBB741DD5AA6E005D6414 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = "Pods/../build/Debug-iphoneos/OCMock/OCMock.framework"; sourceTree = "<group>"; };
+		C22BBB761DD5AA7A005D6414 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Orange_Shop_Swift-cyjpqovmxfggmtektdcnegfpgkvh/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		C22BBB781DD5AA81005D6414 /* TouchJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TouchJSON.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Orange_Shop_Swift-cyjpqovmxfggmtektdcnegfpgkvh/Build/Products/Debug-iphonesimulator/TouchJSON/TouchJSON.framework"; sourceTree = "<group>"; };
+		C22BBB7A1DD5AA89005D6414 /* UITableView_FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UITableView_FDTemplateLayoutCell.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Orange_Shop_Swift-cyjpqovmxfggmtektdcnegfpgkvh/Build/Products/Debug-iphonesimulator/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework"; sourceTree = "<group>"; };
+		C22BBB7C1DD5AAA0005D6414 /* Pods_Orange_Shop_SwiftTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Orange_Shop_SwiftTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_Orange_Shop_SwiftTests.framework"; sourceTree = "<group>"; };
 		C279FF1C1DD4513B00F7DFAD /* Orange_Shop_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orange_Shop_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C279FF1F1DD4513B00F7DFAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C279FF261DD4513B00F7DFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +90,6 @@
 		C279FF3B1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Orange_Shop_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C279FF3F1DD4513B00F7DFAD /* Orange_Shop_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_Shop_SwiftUITests.swift; sourceTree = "<group>"; };
 		C279FF411DD4513B00F7DFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C279FF6D1DD4661100F7DFAD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C279FF6E1DD4670E00F7DFAD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C279FF751DD4685C00F7DFAD /* Orange_Shop_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orange_Shop_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		C279FF761DD4685D00F7DFAD /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
@@ -74,6 +106,8 @@
 		C279FF871DD46A2D00F7DFAD /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
 		C279FF881DD46A2D00F7DFAD /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
 		C279FF891DD46A2D00F7DFAD /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		C279FF991DD4751D00F7DFAD /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		E8E9658A2ADCE0470E5AF8CD /* Pods_Orange_Shop_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orange_Shop_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +115,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A34FFDC3E65DF99DF52691D7 /* libPods-Orange_Shop_Swift.a in Frameworks */,
+				C22BBB7D1DD5AAA0005D6414 /* Pods_Orange_Shop_SwiftTests.framework in Frameworks */,
+				C22BBB7B1DD5AA89005D6414 /* UITableView_FDTemplateLayoutCell.framework in Frameworks */,
+				C22BBB791DD5AA81005D6414 /* TouchJSON.framework in Frameworks */,
+				C22BBB771DD5AA7A005D6414 /* SDWebImage.framework in Frameworks */,
+				C22BBB731DD5AA6A005D6414 /* MJExtension.framework in Frameworks */,
+				C22BBB711DD5AA66005D6414 /* MBProgressHUD.framework in Frameworks */,
+				C22BBB6F1DD5AA62005D6414 /* Masonry.framework in Frameworks */,
+				C22BBB6D1DD5AA5D005D6414 /* jastor.framework in Frameworks */,
+				C22BBB6B1DD5AA59005D6414 /* FMDB.framework in Frameworks */,
+				C22BBB691DD5AA54005D6414 /* AFNetworking.framework in Frameworks */,
+				C22BBB671DD5AA4F005D6414 /* ActionSheetPicker_3_0.framework in Frameworks */,
+				00750F437B15E9DEA38A6B24 /* Pods_Orange_Shop_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54AF62BFFD159356914B1074 /* libPods-Orange_Shop_SwiftTests.a in Frameworks */,
+				ABF09EC75037A4A7A449CC9A /* Pods_Orange_Shop_SwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,8 +162,20 @@
 		869974A96FF77725FF2FF0F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E772841807BCB262C5B5136 /* libPods-Orange_Shop_Swift.a */,
-				3AAAF12837B81B14F476BE65 /* libPods-Orange_Shop_SwiftTests.a */,
+				C22BBB7C1DD5AAA0005D6414 /* Pods_Orange_Shop_SwiftTests.framework */,
+				C22BBB7A1DD5AA89005D6414 /* UITableView_FDTemplateLayoutCell.framework */,
+				C22BBB781DD5AA81005D6414 /* TouchJSON.framework */,
+				C22BBB761DD5AA7A005D6414 /* SDWebImage.framework */,
+				C22BBB741DD5AA6E005D6414 /* OCMock.framework */,
+				C22BBB721DD5AA6A005D6414 /* MJExtension.framework */,
+				C22BBB701DD5AA66005D6414 /* MBProgressHUD.framework */,
+				C22BBB6E1DD5AA62005D6414 /* Masonry.framework */,
+				C22BBB6C1DD5AA5D005D6414 /* jastor.framework */,
+				C22BBB6A1DD5AA59005D6414 /* FMDB.framework */,
+				C22BBB681DD5AA54005D6414 /* AFNetworking.framework */,
+				C22BBB661DD5AA4F005D6414 /* ActionSheetPicker_3_0.framework */,
+				0590CF57295CE928BE236FBC /* Pods_Orange_Shop_Swift.framework */,
+				E8E9658A2ADCE0470E5AF8CD /* Pods_Orange_Shop_SwiftTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,7 +243,6 @@
 				C279FF6E1DD4670E00F7DFAD /* Default-568h@2x.png */,
 				C279FF2B1DD4513B00F7DFAD /* Info.plist */,
 				C279FF261DD4513B00F7DFAD /* Assets.xcassets */,
-				C279FF6D1DD4661100F7DFAD /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -236,6 +292,7 @@
 		C279FF521DD45CDE00F7DFAD /* components */ = {
 			isa = PBXGroup;
 			children = (
+				C279FF991DD4751D00F7DFAD /* BaseController.swift */,
 			);
 			name = components;
 			sourceTree = "<group>";
@@ -243,6 +300,7 @@
 		C279FF531DD45CE100F7DFAD /* macros */ = {
 			isa = PBXGroup;
 			children = (
+				C22BBB631DD59A88005D6414 /* common_macro.swift */,
 			);
 			name = macros;
 			sourceTree = "<group>";
@@ -370,6 +428,10 @@
 		C279FF981DD46AA300F7DFAD /* maintab */ = {
 			isa = PBXGroup;
 			children = (
+				C21617A51DD56F970016FA30 /* TabHomeController.swift */,
+				C21617A71DD56FB10016FA30 /* TabTopicController.swift */,
+				C21617A91DD56FC40016FA30 /* TabCartController.swift */,
+				C21617AB1DD56FDA0016FA30 /* TabMyController.swift */,
 			);
 			name = maintab;
 			sourceTree = "<group>";
@@ -611,13 +673,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C279FF201DD4513B00F7DFAD /* AppDelegate.swift in Sources */,
+				C22BBB641DD59A88005D6414 /* common_macro.swift in Sources */,
+				C279FF9A1DD4751D00F7DFAD /* BaseController.swift in Sources */,
 				C279FF8A1DD46A2D00F7DFAD /* TADotView.m in Sources */,
+				C21617AC1DD56FDA0016FA30 /* TabMyController.swift in Sources */,
+				C21617AA1DD56FC40016FA30 /* TabCartController.swift in Sources */,
 				C279FF841DD46A1D00F7DFAD /* TAAbstractDotView.m in Sources */,
 				C279FF851DD46A1D00F7DFAD /* TAAnimatedDotView.m in Sources */,
 				C279FF7B1DD4685D00F7DFAD /* SDCycleScrollView.m in Sources */,
 				C279FF8B1DD46A2D00F7DFAD /* TAPageControl.m in Sources */,
 				C279FF7A1DD4685D00F7DFAD /* SDCollectionViewCell.m in Sources */,
+				C21617A61DD56F970016FA30 /* TabHomeController.swift in Sources */,
 				C279FF7E1DD469D900F7DFAD /* UIView+SDExtension.m in Sources */,
+				C21617A81DD56FB10016FA30 /* TabTopicController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,8 +821,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = A6KB4HJC23;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Orange_Shop_Swift/PrefixHeader.pch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/OCMock",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Orange_Shop_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mogo.project.Orange-Shop-Swift";
@@ -772,8 +845,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = A6KB4HJC23;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Orange_Shop_Swift/PrefixHeader.pch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/OCMock",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Orange_Shop_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mogo.project.Orange-Shop-Swift";
