@@ -1,0 +1,6 @@
+framework module Pods_Orange_Shop_SwiftTests {
+  umbrella header "Pods-Orange_Shop_SwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Orange_Shop_Swift {
+  umbrella header "Pods-Orange_Shop_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
